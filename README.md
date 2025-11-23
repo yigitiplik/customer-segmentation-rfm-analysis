@@ -42,7 +42,7 @@ customer-segmentation-rfm-analysis/
   powerbi/      → rfm_dashboard.pbix (Power BI dashboard)
   screenshots/  → exported dashboard images / charts
   README.md
-
+```
 ---
 
 ## Planned Workflow
