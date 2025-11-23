@@ -42,3 +42,39 @@ customer-segmentation-rfm-analysis/
   powerbi/      → rfm_dashboard.pbix (Power BI dashboard)
   screenshots/  → exported dashboard images / charts
   README.md
+
+---
+
+## Planned Workflow
+
+### 1. Python (notebooks/rfm_analysis.ipynb)
+* Load transactional sales data
+* Aggregate to customer-level
+* Compute R, F, M metrics
+* Assign RFM scores & segments
+* Export RFM table for Power BI
+
+### 2. Power BI (powerbi/rfm_dashboard.pbix)
+
+* Import RFM table
+* Build RFM overview dashboard
+* Visualise segment distributions & KPIs
+
+---
+
+## Business Value
+
+RFM segmentation helps organisations:
+* Focus on high-value customers
+* Design retention campaigns for at-risk segments
+* Reduce marketing waste on low-value / lost customers
+* Support data-driven customer strategy with simple, explainable metrics
+
+---
+
+## Next Steps
+
+* Add dataset to data/ (e.g. “Sample - Superstore.csv”)
+* Create notebooks/rfm_analysis.ipynb for Python RFM analysis
+* Export RFM results and build rfm_dashboard.pbix in powerbi/
+* Add screenshots of the dashboard to screenshots/ and link them here
