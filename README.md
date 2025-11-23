@@ -86,7 +86,7 @@ PBIX file:
 ## Screenshot
 
 
-<img src="screenshots/rfm_dashboard.png" width="850">
+<img src="screenshots/rfm_dashboard.PNG" width="850">
 
 ## Planned Workflow
 
