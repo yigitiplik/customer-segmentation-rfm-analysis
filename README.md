@@ -45,6 +45,40 @@ customer-segmentation-rfm-analysis/
 ```
 ---
 
+## RFM Customer Segmentation Dashboard (Power BI)
+
+This project includes a complete RFM (Recency–Frequency–Monetary) customer segmentation dashboard built in Power BI.
+
+The dashboard visualises:
+
+* Customer Recency distribution (binned)
+* Frequency distribution
+* Monetary distribution (log-scaled & binned)
+* RFM customer segments (Champions, Loyal, High Spenders, Frequent, Recent, Others)
+* KPI summary
+** Total Customers
+** Average Recency
+** Average Frequency
+** Average Monetary
+* Customer table with RFM scores and assigned segment
+
+## Technologies
+
+* Power BI
+* DAX
+* Python (for RFM preprocessing)
+* Jupyter Notebook
+* Pandas / NumPy
+
+## Dashboard File
+
+PBIX file:
+
+/powerbi/rfm_dashboard.pbix
+
+## Screenshot
+
+
 ## Planned Workflow
 
 ### 1. Python (notebooks/rfm_analysis.ipynb)
