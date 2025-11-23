@@ -56,11 +56,13 @@ The dashboard visualises:
 * Monetary distribution (log-scaled & binned)
 * RFM customer segments (Champions, Loyal, High Spenders, Frequent, Recent, Others)
 * KPI summary
-** Total Customers
-** Average Recency
-** Average Frequency
-** Average Monetary
+  * Total Customers
+  * Average Recency
+  * Average Frequency
+  * Average Monetary
 * Customer table with RFM scores and assigned segment
+
+---
 
 ## Technologies
 
@@ -70,14 +72,21 @@ The dashboard visualises:
 * Jupyter Notebook
 * Pandas / NumPy
 
-## Dashboard File
+---
 
+## Dashboard File
+```
 PBIX file:
 
 /powerbi/rfm_dashboard.pbix
+```
+---
+
 
 ## Screenshot
 
+
+<img src="screenshots/rfm_dashboard.png" width="850">
 
 ## Planned Workflow
 
